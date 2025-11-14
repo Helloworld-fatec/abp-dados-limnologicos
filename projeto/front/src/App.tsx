@@ -10,11 +10,12 @@ import SimaMenu from "./pages/sima/SimaMenu";
 import SimaTable from "./pages/sima/PageSimaTable";
 import SimaGraph from "./pages/sima/SimaGraph";
 import SimaMap from "./pages/sima/SimaMap";
-import {SimaInfo} from "./pages/sima/SimaInfo";
+import SimaInfo from "./pages/sima/SimaInfo";
 import BalcarMenu from "./pages/balcar/BalcarMenu";
 import BalcarTable from "./pages/balcar/PageBalcarTable";
 import BalcarGraph from "./pages/balcar/BalcarGraph";
 import BalcarMap from "./pages/balcar/BalcarMap";
+import BalcarInfo from "./pages/balcar/BalcarInfo";
 import FurnasMenu from "./pages/furnas/FurnasMenu";
 import FurnasTable from "./pages/furnas/PageFurnasTable";
 import FurnasGraph from "./pages/furnas/FurnasGraph";
@@ -71,6 +72,7 @@ function AppWithRouter() {
           <Route path="/balcar-table" element={<BalcarTable />} />
           <Route path="/balcar-graph" element={<BalcarGraph />} />
           <Route path="/balcar-map" element={<BalcarMap />} />
+          <Route path="/balcar-info" element={<BalcarInfo />} />
           <Route path="/furnas" element={<FurnasMenu />} />
           <Route path="/furnas-table" element={<FurnasTable />} />
           <Route path="/furnas-graph" element={<FurnasGraph />} />
